@@ -1,5 +1,29 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+  "进入任务界面": {
+    "recognition": "TemplateMatch",
+    "template": "8th.png",
+    "action": "Click",
+    "next": [
+      "感叹号"
+    ]
+  },
+  "感叹号": {
+    "recognition": "ColorMatch",
+    "roi": [
+      830, 1070, 1, 1
+    ],
+    "lower": [
+      255, 41, 106
+    ],
+    "upper": [
+      255, 41, 106
+    ],
+    "action": "Click",
+    "target": [
+      600, 1300, 1, 1
+    ],
+    "next": []
+  },
+
+
 }
